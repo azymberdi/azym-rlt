@@ -23,7 +23,7 @@ variable "google_region" {
 }
 
 variable "google_domain_name" {
-  default = "silviarotari.com"
+  default = "turkmendevops.com"
   description = "- (Optional) The domain name for cluster."
 }
 variable "google_project_id" {
