@@ -1,4 +1,0 @@
-container.admin
-dns.admin
-compute.storageAdmin
-owner
