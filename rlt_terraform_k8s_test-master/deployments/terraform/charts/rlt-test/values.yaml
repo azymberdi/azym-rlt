@@ -1,0 +1,33 @@
+replicaCount: 1
+
+image:
+  repository: gcr.io/rlt-test-295608/rlt-test
+  tag: latest
+  pullPolicy: Always
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: true
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    # kubernetes.io/tls-acme: "true"
+  paths:
+  - '/'
+  hosts:
+    - rlt.turkmendevops.com
+  tls:
+  - hosts:
+    - rlt.turkmendevops.com
+    secretName: chart-rlt-tls
+
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}

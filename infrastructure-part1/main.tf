@@ -7,3 +7,4 @@ module "gke_cluster" {
   cluster_version    = "${var.cluster_version}"
   google_credentials = "${var.google_credentials_json}"
 }
+
