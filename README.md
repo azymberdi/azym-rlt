@@ -10,11 +10,11 @@ Kubernetes  >=  v1.14.8
 
 Tiller >= v2.11.0
 
-##Service Account
+## Service Account
 
 Creating the service account and attaching the json file will be necessary
 
-##Tfvars.file.
+## Tfvars.file.
 
 Your .tfvars should be filled in accordingly
 
