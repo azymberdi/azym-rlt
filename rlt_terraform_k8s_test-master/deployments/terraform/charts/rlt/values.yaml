@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/rlt-test-295608/rlt-test
+  repository: gcr.io/rlt-test-295608/rlt
   tag: latest
   pullPolicy: Always
 service:
