@@ -13,7 +13,7 @@ variable "deployment_environment" {
 }
 
 variable "google_bucket_name" {
-  default = "rlt-test"
+  default = "rlt"
   description = "- (Optional) Google Region where cluster will be deployed."
 }
 

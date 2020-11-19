@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "rlt-test"
+    bucket  = "rlt"
     prefix  = "/cluster-infrastructure"
     project = "rlt-test-295608"
   }
